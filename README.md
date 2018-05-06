@@ -18,7 +18,11 @@ Step 3.
   
  `https://www.linkedin.com/search/results/index/?keywords=crypto&origin=GLOBAL_SEARCH_HEADER&page=${i}`
 
-  Run scraper-async.js first. This will output the LinkedIn profiles into an json file. 
+  Run scraper-async.js first. This will output the LinkedIn profiles into linkedin-profiles.json file. 
+  
+  Then use some sort of json to csv to parse only the profiles and add it to an array to email-list.js
+  
+  After you got email-list.js ready to go....
 
   
 Step 4.
